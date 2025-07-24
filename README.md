@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat&logo=javascript&logoColor=black"/>
 <!--   <img src="https://img.shields.io/badge/TypeScript-007acc?style=flat&logo=typescript&logoColor=white"/> -->
-  <img src="https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black"/>
+<!--   <img src="https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black"/> -->
 <!--   <img src="https://img.shields.io/badge/Angular-dd0031?style=flat&logo=angular&logoColor=white"/> -->
 <!--   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/> -->
 <!--   <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"/> -->
@@ -36,14 +36,6 @@
 <!--   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white"/> -->
 </p>
 
-
-
-## ☕ Support
-
-<p>If you think I deserve a little pick-me-up, why not treat me to a coffee?</p>
-<a href="https://www.buymeacoffee.com/yourusername"><img src="https://img.shields.io/badge/-Buy%20me%20a%20coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black"/></a>
-
----
 
 ## 📊 My GitHub Contributions Summary
 
