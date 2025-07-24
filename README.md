@@ -8,8 +8,8 @@
 <p align="center">
   <a href="mailto:kanagare.srinivas@gmail.com"><img src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/srinivas-kangare/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/-Dallas,%20Texas-black?style=flat-square&logo=map-pin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-He/Him-yellowgreen?style=flat-square"/>
+<!--   <img src="https://img.shields.io/badge/-Dallas,%20Texas-black?style=flat-square&logo=map-pin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-He/Him-yellowgreen?style=flat-square"/> -->
 </p>
 
 ---
