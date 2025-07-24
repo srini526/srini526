@@ -2,7 +2,7 @@
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://linkedin.com/in/srinivas-kangare/)](https://linkedin.com/in/srinivas-kangare/)
 [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-e34c26?style=flat-square&logo=Google-Chrome&logoColor=white&link=https://yourportfolio.com)](https://yourportfolio.com)
-[![Email Badge](https://img.shields.io/badge/-kanagare.srinivas@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kanagare.srinivas@gmail.com)](mailto:kanagare.srinivas@gmail.com)
+[![Email Badge](https://img.shields.io/badge/-kangaresrinivas@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kanagare.srinivas@gmail.com)](mailto:kanagare.srinivas@gmail.com)
 
 ---
 
