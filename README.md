@@ -10,12 +10,7 @@
 
 <br/>
 
-<a href="https://github.com/srini526">
-<img src="https://img.shields.io/github/followers/srini526?label=Followers&style=for-the-badge&color=0ea5e9"/>
-</a>
-<a href="https://github.com/srini526?tab=repositories">
-<img src="https://img.shields.io/github/stars/srini526?label=Stars&style=for-the-badge&color=f59e0b"/>
-</a>
+
 <a href="https://linkedin.com/in/srinivas-kangare">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
