@@ -102,7 +102,7 @@ Computer Science & Design graduate (**Atria Institute of Technology**) with prac
   - Engineered real-time agent progress streaming using **Server-Sent Events (SSE)** and automated **PDF report generation**.
   - Integrated **Tavily API** and **BeautifulSoup** with **LangChain** for live web scraping and verification, deployed across **Vercel** and **Render**.
 - **Tech Stack:** `Python` `FastAPI` `React` `LangChain` `Tavily API` `BeautifulSoup` `SSE` `Vercel` `Render`
-- 🔗 **[GitHub Repository](https://github.com/srini526)**
+- 🔗 **[GitHub Repository](https://github.com/srini526/Multi_Agent_AI_Research_System)**
 
 </details>
 
@@ -116,7 +116,7 @@ Computer Science & Design graduate (**Atria Institute of Technology**) with prac
   - Combined vector **Embeddings**, semantic search, and ultra-low-latency **Groq LLMs** to deliver accurate, grounded responses.
   - Exposed via **Flask REST APIs** with real-time response streaming and a **React** client interface.
 - **Tech Stack:** `Python` `Flask` `React` `Groq API` `Ollama` `OpenAI Whisper` `Embeddings` `Scikit-learn` `NumPy` `Pandas`
-- 🔗 **[GitHub Repository](https://github.com/srini526)**
+- 🔗 **[GitHub Repository](https://github.com/srini526/RAG_Based_AI_Teaching_Assistant)**
 
 </details>
 
@@ -131,7 +131,7 @@ Computer Science & Design graduate (**Atria Institute of Technology**) with prac
   - Fine-tuned with early stopping and model checkpointing to achieve **88.75% classification accuracy**.
   - 🏆 **Publication:** Presented research paper at the *4th International Conference on Emerging Trends in Science and Engineering (ICETSE 2025)*.
 - **Tech Stack:** `Python` `TensorFlow` `Keras` `InceptionV3` `Transfer Learning`
-- 🔗 **[GitHub / Kaggle](https://github.com/srini526)**
+- 🔗 **[Kaggle](https://www.kaggle.com/code/srinivaskangare/bt-final)**
 
 </details>
 
