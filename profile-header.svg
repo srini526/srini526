@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Srinivas Kanagare — AI Engineer</title>
+  <desc id="desc">A dark technical identity banner with a custom SK monogram, grid, and connected system nodes.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#24313d" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#65e6c2" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#65a9ff" stop-opacity=".02"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65e6c2"/>
+      <stop offset="1" stop-color="#65a9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="#0b1118"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)" opacity=".78"/>
+  <ellipse cx="930" cy="155" rx="360" ry="230" fill="url(#glow)"/>
+  <path d="M0 292H1200" stroke="#263440" stroke-width="1"/>
+  <path d="M700 0V340" stroke="#263440" stroke-width="1" stroke-dasharray="4 8"/>
+  <g opacity=".9" fill="none" stroke="url(#accent)" stroke-width="2">
+    <path d="M790 88H900L950 138H1085"/>
+    <path d="M790 172H865L915 222H1085"/>
+    <path d="M900 88V172"/>
+    <path d="M950 138V222"/>
+    <path d="M865 172H820V250H960"/>
+    <path d="M1085 138V222"/>
+  </g>
+  <g fill="#0b1118" stroke="#65e6c2" stroke-width="2">
+    <circle cx="790" cy="88" r="6"/><circle cx="900" cy="88" r="6"/>
+    <circle cx="950" cy="138" r="6"/><circle cx="1085" cy="138" r="6"/>
+    <circle cx="790" cy="172" r="6"/><circle cx="865" cy="172" r="6"/>
+    <circle cx="915" cy="222" r="6"/><circle cx="1085" cy="222" r="6"/>
+    <circle cx="960" cy="250" r="6"/>
+  </g>
+  <g transform="translate(70 76)">
+    <rect x="0" y="0" width="126" height="126" rx="18" fill="#101c25" stroke="#35515b"/>
+    <path d="M35 38V88L63 63L91 88V38" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+    <circle cx="63" cy="63" r="5" fill="#eaf7f4"/>
+  </g>
+  <text x="235" y="105" fill="#65e6c2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="3">ENGINEERING / PROFILE 001</text>
+  <text x="235" y="165" fill="#f3f7fa" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing=".5">SRINIVAS KANAGARE</text>
+  <text x="238" y="207" fill="#b7c6d1" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="1.5">AI ENGINEER  ·  LLM SYSTEMS  ·  BACKEND</text>
+  <text x="238" y="265" fill="#7f929f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.5">BUILDING SYSTEMS THAT RETRIEVE, REASON &amp; RESPOND</text>
+  <text x="70" y="319" fill="#6e8290" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.4">PUNE, INDIA</text>
+  <text x="1130" y="319" text-anchor="end" fill="#6e8290" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.4">SRINI526 / GITHUB</text>
+</svg>
