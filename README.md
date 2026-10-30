@@ -68,32 +68,45 @@ flowchart LR
 ---
 
 ### 02 / RAG-Based AI Notebook
-**A source-grounded workspace for learning and research**
+**A NotebookLM-style AI workspace for knowledge discovery and learning**
 
-An AI notebook that turns lecture media and documents into searchable knowledge, allowing users to ask questions grounded in their own material.
+An AI-powered study workspace where users organize documents, lecture materials, videos, YouTube links, and web pages into persistent notebooks. Each notebook becomes an interactive knowledge base for source-grounded conversations, research, and AI-generated study materials.
 
 **System flow**
 
 ```mermaid
 flowchart LR
-    A[Video / audio / documents] --> B[Extraction and parsing]
-    B --> C[Whisper transcription]
-    C --> D[Chunking]
-    D --> E[BGE-M3 embeddings]
-    E --> F[Semantic retrieval]
-    F --> G[Relevant context]
-    G --> H[Llama 3.1 via Groq]
-    H --> I[Grounded response]
+    A[Documents / Audio / Video / YouTube / Web] --> B[React Interface]
+    B --> C[Flask API]
+    C --> D[LangGraph Ingestion Graph]
+    D --> E[Parse and Chunk]
+    E --> F[Cloudflare Workers AI - BGE-M3]
+    F --> G[Persist Embeddings]
+    C --> H[LangGraph Agentic RAG Graph]
+    H --> I[Analyze Query]
+    I --> J[FAISS Retrieval]
+    J --> K[Grade Context]
+    K --> L[Rewrite Query]
+    L --> M[Groq LLM]
+    M --> N[Self-Check]
+    N --> O[Source-Cited Answer]
+    C --> P[AI Study Studio]
+    P --> Q[Study Guides / Briefings / FAQs]
+    P --> R[Timelines / Mind Maps / Flashcards / Quizzes]
+    C --> S[SQLAlchemy - SQLite / PostgreSQL]
+    H --> T[Tavily Web Search Fallback]
 ```
 
 **Engineering notes**
-- Built media-processing and transcription workflows using FFmpeg and Whisper.
-- Processed source material into chunks for embedding and retrieval.
-- Generated BGE-M3 embeddings through Ollama.
-- Used semantic retrieval to provide relevant context to Llama 3.1 through Groq.
-- Exposed the workflow through Flask APIs and a React interface.
-
-`Python` `Flask` `React` `Whisper` `Ollama` `BGE-M3` `Groq` `RAG`
+- Designed separate LangGraph workflows for document ingestion and agentic RAG.
+- Integrated Cloudflare Workers AI with BGE-M3 for embedding generation.
+- Implemented FAISS-based vector retrieval with in-memory notebook indexes rebuilt from persisted embeddings.
+- Built source-grounded conversations with clickable citations linking to exact supporting passages.
+- Developed AI Study Studio for generating briefings, study guides, FAQs, timelines, mind maps, flashcards, and quizzes.
+- Implemented persistent notebooks using SQLAlchemy with SQLite locally and PostgreSQL in production.
+- Added device-key-based notebook ownership without conventional user authentication.
+- Containerized the application with Docker and automated backend deployment to Hugging Face Spaces using GitHub Actions.
+`Python` `Flask` `React Vite` `LangChain` `LangGraph` `Cloudflare Workers AI` `BGE-M3` `FAISS` `Groq` `Tavily` `SQLAlchemy` `PostgreSQL` `SQLite` `Docker` `GitHub Actions` `SSE`
 
 [Repository](https://github.com/srini526/RAG_Based_AI_Notebook) · [Live application](https://ragbasedainotebook.vercel.app/)
 
