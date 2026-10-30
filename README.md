@@ -16,7 +16,7 @@
 
 ## 01 — The work
 
-I’m a Computer Science & Design graduate focused on building practical AI applications and dependable software systems.
+I’m a Computer Science & Engineering graduate focused on building practical AI applications and dependable software systems.
 
 My work sits at the intersection of **Generative AI, agentic workflows, retrieval systems, and backend engineering**. I enjoy taking a problem from architecture to implementation — connecting models, data, APIs, and interfaces into something people can use.
 
@@ -34,34 +34,38 @@ My work sits at the intersection of **Generative AI, agentic workflows, retrieva
 ### 01 / Research Desk
 **Multi-Agent AI Research System**
 
-A research workflow that coordinates specialized agents to search, inspect, synthesize, and critique information before producing a structured report.
+An interactive AI research workspace where four specialized agents — Search, Reader, Writer, and Critic — collaborate to investigate topics, extract information, synthesize findings, and produce structured research reports. Features a live animated interface that visualizes agent activities and handoffs throughout the research process.
 
 **System flow**
 
 ```mermaid
 flowchart LR
-    A[Research question] --> B[React interface]
-    B --> C[FastAPI]
-    C --> D[LangGraph orchestration]
-    D --> E[Search agent]
-    D --> F[Reader / extraction agent]
-    E --> G[Tavily search]
-    F --> H[Web content]
-    G --> I[Writer]
-    H --> I
-    I --> J[Critic]
-    J --> K[Research report]
-    D -. progress events .-> B
+    A[Research Topic] --> B[React Interface]
+    B --> C[FastAPI Backend]
+    C --> D[Background Worker Thread]
+    D --> E[Research Pipeline]
+    E --> F[Search Agent]
+    E --> G[Reader Agent]
+    F --> H[Writer Agent]
+    G --> H
+    H --> I[Critic Agent]
+    I --> J[Structured Research Report]
+    J --> K[PDF Generation]
+    K --> L[Downloadable PDF]
+    D -. live progress .-> M[SSE Event Stream]
+    M -. agent updates .-> B
 ```
 
 **Engineering notes**
-- Orchestrated a multi-agent research pipeline with LangChain and LangGraph.
-- Connected web search and content extraction using Tavily and BeautifulSoup.
-- Built a React interface backed by FastAPI.
-- Streamed agent progress to the interface using Server-Sent Events (SSE).
-- Added PDF generation for the final research output.
+- Integrated the existing multi-agent research pipeline into a FastAPI backend without modifying its core agent, pipeline, and tool modules.
+- Built an interactive React interface featuring four animated SVG agents with real-time working states, speech bubbles, and handoff animations.
+- Implemented background research execution using worker threads to handle concurrent research jobs.
+- Captured pipeline execution logs and streamed live agent progress to the frontend using Server-Sent Events (SSE).
+- Implemented automatic SSE reconnection and event-stream resumption for ongoing research jobs.
+- Developed structured research report presentation with animated text rendering and interactive source cards.
+- Integrated PDF generation for downloadable research reports.
 
-`Python` `LangGraph` `LangChain` `FastAPI` `React` `Tavily` `SSE`
+`Python` `FastAPI` `React` `Vite` `LangChain` `LangGraph` `Groq` `Cloudflare Workers AI` `Tavily` `Server-Sent Events` `Docker` `FPDF2` 
 
 [Repository](https://github.com/srini526/Multi_Agent_AI_Research_System) · [Live application](https://multi-agent-ai-research-system-jet.vercel.app/)
 
@@ -133,8 +137,8 @@ A medical-imaging research project using transfer learning to classify brain MRI
 
 | Discipline | Technologies |
 |---|---|
-| **AI / GenAI** | LangChain, LangGraph, RAG, embeddings, semantic search, Whisper, Ollama, Groq, Gemini |
-| **Machine learning** | TensorFlow, Keras, scikit-learn, NumPy, Pandas |
+| **AI / GenAI** | RAG, LangChain, LangGraph, Multi-Agent Systems, Prompt Engineering, Embeddings, Semantic Search, Tool Calling, Generative AI, Agentic AI |
+| **Machine learning** | NLP, TensorFlow, Keras, Scikit-learn, Transfer Learning, NumPy, Pandas |
 | **Backend** | Python, FastAPI, Flask, REST APIs, SSE, SQLAlchemy |
 | **Frontend** | React, JavaScript, HTML, CSS, Tailwind CSS |
 | **Data** | PostgreSQL, MySQL, MongoDB, SQLite |
@@ -154,16 +158,16 @@ Worked on GenAI-integrated Android application development and debugging using J
 **B.E. — Computer Science & Design**  
 Atria Institute of Technology · 2022 – 2026
 
-CGPA: **7.53 / 10**  
-Research presentation: **ICETSE 2025**
+CGPA: **7.41 / 10**  
 
 ---
 
 ## 05 — Other builds
 
+- [LinkedIn Post Generator](https://github.com/srini526/LinkedIn_post_generator)
+- [College Assistant](https://github.com/srini526/College_assistant)
 - [Content Safety Analyzer](https://github.com/srini526/Content_saftety_analyzer)
 - [Hinglish Script Writer](https://github.com/srini526/Hinglish_script_writer)
-- [Flagship Project](https://github.com/srini526/Flagship_project)
 
 ---
 
@@ -185,6 +189,6 @@ Research presentation: **ICETSE 2025**
 **BUILD / TEST / LEARN / REPEAT**
 
 If you're working on useful AI products or engineering systems,  
-[let's connect](https://www.linkedin.com/in/srinivas-kangare/).
+[let's connect](https://www.linkedin.com/in/srinivas-kanagare/).
 
 </div>
