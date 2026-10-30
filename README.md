@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" alt="Srinivas Kanagare — AI Engineer" width="100%" />
+<img src="profile-header.svg" alt="Srinivas Kanagare J — AI Engineer" width="100%" />
 
 <br/>
 
