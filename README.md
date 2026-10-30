@@ -175,8 +175,11 @@ CGPA: **7.41 / 10**
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=srini526&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=srini526&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+<img height="160" src="https://github-stats-extended.vercel.app/api?username=srini526&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics" />
+
+<img height="160" src="https://github-stats-extended.vercel.app/api/top-langs?username=srini526&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+
+<br/>
 
 <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=srini526&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity" />
 
